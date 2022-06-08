@@ -2757,7 +2757,7 @@ function library:Load(options)
         services.ContextActionService:UnbindAction("disablemousescroll")
     end)
 
-    local outline = utility.outline(main, "Accent")
+    local outline = utility.outline(default, "Accent")
 
     utility.outline(outline, "Window Border")
     
