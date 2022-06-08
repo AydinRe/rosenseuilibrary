@@ -1082,7 +1082,6 @@ function utility.rgba(r, g, b, alpha)
 end
 
 local themes = {
-
     Default = {
         ["Accent"] = Color3.fromRGB(62, 121, 41),
         ["Window Background"] = Color3.fromRGB(25, 26, 21),
@@ -2757,7 +2756,7 @@ function library:Load(options)
         services.ContextActionService:UnbindAction("disablemousescroll")
     end)
 
-    local outline = utility.outline(default, "Accent")
+    local outline = utility.outline(main, "Accent")
 
     utility.outline(outline, "Window Border")
     
